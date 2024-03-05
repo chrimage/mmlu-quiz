@@ -1,6 +1,12 @@
 # MMLU Quiz
 
-The MMLU Quiz is a Python application that allows users to test their knowledge by answering multiple-choice questions from the Massive Multitask Language Understanding (MMLU) dataset. The quiz covers a wide range of categories, including history, science, mathematics, and more.
+Welcome to the MMLU Quiz, a Python application that challenges you to test your knowledge and intelligence against state-of-the-art language models. This quiz is based on the Massive Multitask Language Understanding (MMLU) dataset, which consists of multiple-choice questions covering a wide range of categories, including history, science, mathematics, and more.
+
+The MMLU dataset has become a benchmark for evaluating the performance and capabilities of advanced language models. One of the most prominent models, GPT-4, developed by OpenAI, has achieved an impressive score of 86.5% on this test. Now, it's your turn to see how you measure up!
+
+With the MMLU Quiz, you can choose from a variety of categories and answer a series of randomly selected questions. The quiz provides immediate feedback on the correctness of your answers and presents you with a final score and grade at the end.
+
+Whether you're a trivia enthusiast, a curious learner, or someone interested in comparing your knowledge to that of cutting-edge AI models, the MMLU Quiz offers an engaging and challenging experience. Put your skills to the test and see how you stack up against the likes of GPT-4!
 
 ## Features
 
