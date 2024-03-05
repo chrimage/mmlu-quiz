@@ -79,11 +79,17 @@ dataset = load_dataset("lukaemon/mmlu", selected_category, trust_remote_code=Tru
 # Get the test split of the dataset
 test_data = dataset["test"]
 
+# Create a list to store the indices of previously asked questions
+asked_questions = []
+
 # Function to prompt the user with a random question
 def ask_question():
-    # Select a random question from the dataset
-    question_index = random.randint(0, len(test_data) - 1)
+    # Select a random question from the dataset, excluding previously asked questions
+    question_index = random.choice([i for i in range(len(test_data)) if i not in asked_questions])
     question = test_data[question_index]
+
+    # Add the selected question index to the list of asked questions
+    asked_questions.append(question_index)
 
     # Extract the relevant information from the question
     question_text = question["input"]
