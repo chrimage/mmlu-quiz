@@ -19,7 +19,7 @@ The MMLU Quiz is a Python application that allows users to test their knowledge 
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/mmlu-quiz.git
+git clone https://github.com/chrimage/mmlu-quiz.git
 ```
 
 2. Navigate to the project directory:
